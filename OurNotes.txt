@@ -1,0 +1,9 @@
+Paper:
+PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud(CVPR 2019)
+Dataset:
+- KITTI dataset
+Modifications:
+• Use focal loss function for bin-based box generation (Niyazi)
+• Use soft NMS or weighted NMS algorithm for removing redundant proposals (Onur)
+• Use RoIAlign or PointAlign for point cloud region pooling method (Tolunay)
+• Use VoteNet as a backbone network for point cloud feature extraction (Alican)
